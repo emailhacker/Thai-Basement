@@ -230,17 +230,16 @@ footer {
 
 footer .social_network {
 	border-top: 2px solid #FF6F59;
-}
-footer .social_network ul{
-	padding: 0;
-	text-align: center;
+	margin-top: 20px;
+	padding-top: 20px;
 }
 
-footer .social_network ul li {
+footer .social_network a {
 	padding: 0px 15px;
 }
 
-footer .social_network ul .fa {
+
+footer .social_network .fa {
 	font-size: 2em;
 }
 
@@ -322,6 +321,7 @@ footer .copyright .author {
 		display: block;
 		margin: 0;
 		margin-top: -40px;
+		padding: 10px 10px;
 		position: fixed;
 		text-align: right;
 		width: 100%;
@@ -337,10 +337,10 @@ footer .copyright .author {
 	header .brand {
 		display: block;
 		position: fixed;
-		top: 17px;
+		top: 27px;
 		left: 20px;
 		font-family: 'Bitter', serif;
-		font-size: 1.3em;
+		font-size: 1.5em;
 		z-index: 21;
 }
 
